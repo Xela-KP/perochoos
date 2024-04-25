@@ -1,23 +1,33 @@
 {
-    "name": "perochoos",
-    "version": "1.0.0",
     "author": "Alexander King <perocho.xela@gmail.com>",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
     "dependencies": {
         "next": "14.2.3",
         "react": "^18",
         "react-dom": "^18"
     },
     "devDependencies": {
+        "@eslint/eslintrc": "^3.0.2",
+        "@eslint/js": "^9.1.1",
         "@types/node": "20.12.7",
         "@types/react": "18.3.0",
+        "@typescript-eslint/eslint-plugin": "^6.21.0",
+        "eslint": "^8.57.0",
+        "eslint-config-standard-with-typescript": "^43.0.1",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-react": "^7.34.1",
+        "globals": "^15.0.0",
         "sass": "^1.75.0",
         "typescript": "^5.4.5"
-    }
+    },
+    "name": "perochoos",
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "lint": "next lint",
+        "start": "next start"
+    },
+    "version": "1.0.0"
 }
