@@ -1,5 +1,17 @@
 {
     "name": "perochoos",
     "version": "1.0.0",
-    "author": "Alexander King <perocho.xela@gmail.com>"
+    "author": "Alexander King <perocho.xela@gmail.com>",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "react": "^18",
+        "react-dom": "^18",
+        "next": "14.2.3"
+    }
 }
