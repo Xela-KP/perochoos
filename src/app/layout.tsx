@@ -1,14 +1,25 @@
-import './globals.scss';
-import { name, description } from '../../package.json';
+import './globals.css';
+import React from 'react';
+import StyledComponentsRegistry from '../lib/registry';
 export const metadata = {
-    title: name,
-    description: description,
+    title: 'Perocho OS',
+    description: 'Personal Website Side Project',
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+    children,
+}: {
+    children: React.ReactNode;
+}) {
     return (
         <html lang="en">
-            <body>{children}</body>
+            <body>
+                {
+                    <StyledComponentsRegistry>
+                        {children}
+                    </StyledComponentsRegistry>
+                }
+            </body>
         </html>
     );
 }
