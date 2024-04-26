@@ -35,6 +35,7 @@
         "*.{js,ts,tsx}": "eslint --fix"
     },
     "name": "perochoos",
+    "description": "Personal Website Side Project",
     "private": true,
     "scripts": {
         "build": "next build",

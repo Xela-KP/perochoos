@@ -10,9 +10,10 @@
 6. set up linters & prettier with tsx & sass
 7. set up husky with lint-staged
 8. add jest testing & github actions
+9. code-check: [The W3C Markup Validation Service](https://validator.w3.org/)
 
-## ToDo
+## To Do
 
-9. code-check
 10. storybook
 11. styled components
+12.
