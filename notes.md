@@ -10,4 +10,5 @@
 6. set up linters & prettier with tsx & sass
 
 ## ToDo
-7. add jest testing & github actions
+7. set up husky with lint-staged
+8. add jest testing & github actions
