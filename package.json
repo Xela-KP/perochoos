@@ -23,6 +23,11 @@
         "stylelint-prettier": "^5.0.0",
         "typescript": "^5.4.5"
     },
+    "lint-staged": {
+        "*": "prettier --write .",
+        "*.{css,scss}": "stylelint --fix",
+        "*.{js,ts,tsx}": "eslint --fix"
+    },
     "name": "perochoos",
     "private": true,
     "scripts": {
