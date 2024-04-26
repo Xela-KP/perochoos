@@ -23,7 +23,8 @@
         ".next/types/**/*.ts",
         "**/*.ts",
         "**/*.tsx",
-        "src/app/page.js"
+        "src/app/page.js",
+        "babel.config.js"
     ],
     "exclude": ["node_modules"]
 }
