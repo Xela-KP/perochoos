@@ -45,8 +45,8 @@
         "prettier": "npx prettier . --write",
         "start": "next start",
         "stylelint": "npx stylelint **/*.{scss,css}",
-        "test:watch": "jest --watch",
-        "test": "jest"
+        "test": "jest",
+        "test:watch": "jest --watch"
     },
     "version": "1.0.0"
 }
