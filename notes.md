@@ -11,9 +11,6 @@
 7. set up husky with lint-staged
 8. add jest testing & github actions
 9. code-check: [The W3C Markup Validation Service](https://validator.w3.org/)
+10. remove styled components
 
 ## To Do
-
-10. storybook
-11. styled components
-12.
