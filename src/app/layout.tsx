@@ -1,6 +1,6 @@
-import './globals.css';
 import React from 'react';
 import StyledComponentsRegistry from '../lib/registry';
+import GlobalStyles from './styles/GlobalStyles';
 export const metadata = {
     title: 'Perocho OS',
     description: 'Personal Website Side Project',
@@ -16,6 +16,7 @@ export default function RootLayout({
             <body>
                 {
                     <StyledComponentsRegistry>
+                        <GlobalStyles />
                         {children}
                     </StyledComponentsRegistry>
                 }
