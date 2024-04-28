@@ -1,10 +1,10 @@
 import React, { createContext, useState } from 'react';
 import processDirectory from '../utils/processDirectory';
 import { ScriptProps } from 'next/script';
-import type { Process } from '../types/utils/processDirectory';
+import type { Processes } from '../types/utils/processDirectory';
 
 type ProcessContextState = {
-    processes: Partial<Process>;
+    processes: Processes;
 };
 export const ProcessContext = createContext<ProcessContextState>({
     processes: {},
