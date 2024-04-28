@@ -1,6 +1,6 @@
-import processDirectory from '../utils/processDirectory';
+import ProcessLoader from '../contexts/processes';
 
 // import Image from 'next/image';
 export default function Home() {
-    return <processDirectory.HelloWorld.Component />;
+    return <ProcessLoader />;
 }

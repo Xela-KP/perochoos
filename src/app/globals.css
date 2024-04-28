@@ -3,7 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-    html {
+    * {
+        margin: 0%;
+        padding: 0%;
+
+        @apply justify-center;
+        @apply self-center;
+    }
+
+    html,
+    body {
         @apply bg-primary;
     }
 }
