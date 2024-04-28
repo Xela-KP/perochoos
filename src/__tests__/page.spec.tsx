@@ -1,11 +1,11 @@
 import '@testing-library/jest-dom';
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import HomePage from '../app/page';
 
 describe('HomePage', () => {
-    it('renders the HomePage', () => {
+    it('renders the HomePage', async () => {
         render(<HomePage />);
-        const heading = screen.getByRole('heading');
+        const heading = await waitFor(() => screen.getByRole('heading'));
         expect(heading).toBeInTheDocument();
     });
 });

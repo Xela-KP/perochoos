@@ -1,5 +1,9 @@
-// import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic';
 
-// // const DynamicComponent = dynamic(() => import('../components/hello'));
+const processDirectory = {
+    HelloWorld: {
+        Component: dynamic(() => import('../components/apps/HelloWorld')),
+    },
+};
 
-// // const processDirectory
+export default processDirectory;
