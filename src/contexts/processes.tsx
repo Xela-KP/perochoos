@@ -1,15 +1,20 @@
-// import { createContext, FC } from 'react';
-import { FC } from 'react';
+import React, { createContext, useState } from 'react';
 import processDirectory from '../utils/processDirectory';
-// const processContext = createContext({});
+import { ScriptProps } from 'next/script';
+import type { Process } from '../types/utils/processDirectory';
 
-const ProcessLoader: FC = () => {
+type ProcessContextState = {
+    processes: Partial<Process>;
+};
+export const ProcessContext = createContext<ProcessContextState>({
+    processes: {},
+});
+export const ProcessConsumer = ProcessContext.Consumer;
+export const ProcessProvider: React.FC<ScriptProps> = ({ children }) => {
+    const [processes] = useState(processDirectory);
     return (
-        <>
-            {Object.entries(processDirectory).map(([pid, { Component }]) => (
-                <Component key={pid} />
-            ))}
-        </>
+        <ProcessContext.Provider value={{ processes }}>
+            {children}
+        </ProcessContext.Provider>
     );
 };
-export default ProcessLoader;

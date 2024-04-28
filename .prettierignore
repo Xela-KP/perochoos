@@ -1,2 +1,4 @@
 /.next
 /node_modules
+/.github\ISSUE_TEMPLATE
+*.md

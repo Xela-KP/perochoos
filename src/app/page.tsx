@@ -1,6 +1,10 @@
-import ProcessLoader from '../contexts/processes';
-
+import WindowManager from '../components/system/WindowManager';
+import { ProcessProvider } from '../contexts/processes';
 // import Image from 'next/image';
 export default function Home() {
-    return <ProcessLoader />;
+    return (
+        <ProcessProvider>
+            <WindowManager />
+        </ProcessProvider>
+    );
 }
