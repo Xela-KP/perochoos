@@ -2,3 +2,5 @@
 /node_modules
 /.github\ISSUE_TEMPLATE
 *.md
+/.vscode
+/.swc
