@@ -4,7 +4,7 @@ import themes from '../../styles/themes.json';
 const Root = ({ children }) => (
     <SessionConsumer>
         {({ theme }) => (
-            <html data-theme={theme || themes.default}>
+            <html lang="en" data-theme={theme || themes.default}>
                 <body>{children}</body>
             </html>
         )}
