@@ -13,6 +13,7 @@ export const theme = {
         maximus: 'rgb(var(--color-maximus) / <alpha-value>)',
         linx: 'rgb(var(--color-linx) / <alpha-value>)',
         primary: '#7e5bef',
+        secondary: '#ffffff',
         blue: '#1fb6ff',
         purple: '#7e5bef',
         pink: '#ff49db',

@@ -1,9 +1,9 @@
-import SessionManager from '../components/system/SessionManager';
+import ProcessLoader from '../components/system/ProcessLoader';
 import { ProcessProvider } from '../contexts/process';
 export default function Home() {
     return (
         <ProcessProvider>
-            <SessionManager />
+            <ProcessLoader />
         </ProcessProvider>
     );
 }
