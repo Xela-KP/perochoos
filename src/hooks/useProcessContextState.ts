@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { ProcessContextState, Processes } from '../types/contexts/processes';
-
+import type { ProcessContextState, Processes } from '../types/contexts/process';
 const useProcessContextState = (
     startUpProcesses: Processes
 ): ProcessContextState => {

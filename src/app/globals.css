@@ -6,14 +6,12 @@
     * {
         margin: 0%;
         padding: 0%;
-
         @apply justify-center;
         @apply self-center;
     }
 
     html[data-theme='default'] {
         background-color: blanchedalmond;
-
         --color-esther: 34, 39, 46;
         --color-maximus: 45, 51, 59;
         --color-linx: 55, 62, 71;
@@ -21,7 +19,6 @@
 
     html[data-theme='neon'] {
         background-color: antiquewhite;
-
         --color-esther: 20, 61, 42;
         --color-maximus: 13, 82, 66;
         --color-linx: 20, 82, 11;

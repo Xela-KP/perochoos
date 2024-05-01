@@ -1,8 +1,8 @@
 'use client';
 import React from 'react';
-import { ProcessConsumer } from '../../contexts/processes';
+import { ProcessConsumer } from '../../contexts/process';
 
-const WindowManager = () => {
+const SessionManager = () => {
     return (
         <ProcessConsumer>
             {({ processes }) =>
@@ -14,4 +14,4 @@ const WindowManager = () => {
     );
 };
 
-export default WindowManager;
+export default SessionManager;

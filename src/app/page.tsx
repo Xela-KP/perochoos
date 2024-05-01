@@ -1,9 +1,9 @@
-import WindowManager from '../components/system/WindowManager';
-import { ProcessProvider } from '../contexts/processes';
+import SessionManager from '../components/system/SessionManager';
+import { ProcessProvider } from '../contexts/process';
 export default function Home() {
     return (
         <ProcessProvider>
-            <WindowManager />
+            <SessionManager />
         </ProcessProvider>
     );
 }

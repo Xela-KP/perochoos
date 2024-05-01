@@ -1,7 +1,7 @@
 'use client';
 import React, { createContext } from 'react';
 import processDirectory from '../utils/processDirectory';
-import type { ProcessContextState } from '../types/contexts/processes';
+import type { ProcessContextState } from '../types/contexts/process';
 import useProcessContextState from '../hooks/useProcessContextState';
 
 export const ProcessContext = createContext<ProcessContextState>({
