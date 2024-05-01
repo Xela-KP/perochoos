@@ -14,6 +14,7 @@ export const theme = {
         linx: 'rgb(var(--color-linx) / <alpha-value>)',
         primary: '#7e5bef',
         secondary: '#ffffff',
+        black: '#000000',
         blue: '#1fb6ff',
         purple: '#7e5bef',
         pink: '#ff49db',
